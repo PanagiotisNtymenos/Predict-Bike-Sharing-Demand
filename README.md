@@ -1,4 +1,4 @@
-# Predict-Bike-Sharing-Demand
+# Regressor for Predicting Bike Sharing Demand
 
 #### A regresssion model that predicts the number of bikes rented, based on an Ensemble of ***RandomForest*** and ***CatBoost*** algorithms.
 #### Scores: RMSLE, R2
