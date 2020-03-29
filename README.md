@@ -84,7 +84,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![png](README/output_7_0.png)
 
 
 Χρησιμοποιώντας την μέθοδο log1p() του πακέτου numpy, το distribution στις τιμές του *count* μετατρέπεται ως εξής:
@@ -103,7 +103,7 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+![png](README/output_9_0.png)
 
 
 Ακόμα και τώρα, τα δεδομένα μας δεν έχουν τέλειο distribution αλλά είναι σίγουρα καλύτερα από πριν. Αυτή η μετατροπή βελτιώνει σημαντικά την ακρίβεια του μοντέλου ,όπως θα φανεί και παρακάτω.
@@ -123,7 +123,7 @@ plt.show()
 ```
 
 
-![png](output_11_0.png)
+![png](README/output_11_0.png)
 
 
 
@@ -141,7 +141,7 @@ plt.show()
 ```
 
 
-![png](output_12_0.png)
+![png](README/output_12_0.png)
 
 
 
@@ -258,7 +258,7 @@ if train_or_submit == '1':
 ```
 
 
-![png](output_17_0.png)
+![png](README/output_17_0.png)
 
 
 Η δεύτερη κάνει train με όλο το αρχείο *train.csv* και χρησιμοποιήθηκε στο τελικό submit του kaggle.
