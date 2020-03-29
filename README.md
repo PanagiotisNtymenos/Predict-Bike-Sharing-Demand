@@ -3,7 +3,7 @@
 
 ### Όνομα Ομάδας 
 **e-Class:** Ομάδα 15\
-**Kaggle:** PitaGyroFotopoulo
+**Kaggle:** PitaGyroFotopoulo [](https://www.kaggle.com/c/inf131-2019)
 
 ### Μέλη Ομάδας
 **Ντυμένος Παναγιώτης** 3160120\
