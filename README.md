@@ -392,11 +392,11 @@ if train_or_submit == '3':
 
 ### Μοντέλα Regressor/Αλγορίθμων
 - **L1/L2 Regularization:** Υλοποιήσαμε τα μοντέλα L1/L2 και αν και καταλήξαμε σε μεγαλύτερη ακρίβεια συγκριτικά με τον Linear Regression και σε ελάχισατο train time, απευθυνθήκαμε σε άλλα μοντέλα καθώς το RMSLE κυμαινόταν σε επίπεδο άνω του 1.    
-<br/>
-- **Boosters:** AdaBoost, GradientBoost, XGBoost, lightGBM. Όσον αφορά τους boosters, καταλήξαμε σε CatBoost γιατί υπερτερεί σε χρόνο και ακρίβεια. Αμέσως επόμενος ήταν ο XGBoost, ο οποίος υστερούσε σε χρόνο εκπαίδευσης και ο GradientBoost που υστερούσε σε ακρίβεια. Οι υπόλοιποι, υστερούσαν και στα δυο κατά πολύ με διαφορά RMSLE 0.2 από τους 3 πρώτους.
-<br/>
+
+- **Boosters:** AdaBoost, GradientBoost, XGBoost, lightGBM. Όσον αφορά τους boosters, καταλήξαμε σε CatBoost γιατί υπερτερεί σε χρόνο και ακρίβεια. Αμέσως επόμενος ήταν ο XGBoost, ο οποίος υστερούσε σε χρόνο εκπαίδευσης και ο GradientBoost που υστερούσε σε ακρίβεια. Οι υπόλοιποι, υστερούσαν και στα δυο κατά πολύ με διαφορά RMSLE 0.2 από τους 3 πρώτους.  
+
 - **Trees:** DecisionTreeRegressor, ExtraTreesRegressor. Καταλήξαμε σε RandomForest, παρόλο που είναι ο αλγόριθμος με τον μεγαλύτερο χρόνο εκπαίδευσης γιατί μας έλυσε τα χέρια στο θέμα του overfitting και είχε την μεγαλύτερη ακρίβεια.  
-<br/>
+
 - **Ensemble Models:** VotingRegressor, StackingRegressor.
 
 ### Casual/Registered
